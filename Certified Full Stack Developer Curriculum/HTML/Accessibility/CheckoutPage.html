@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Checkout page for a website that sells products"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page Lab</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        width="400"
+        height="400"
+        src="https://miro.medium.com/v2/resize:fit:1358/1*XJH60luaOT_j7tRPaO_K4g.jpeg"
+        alt="Purple Kawasaki Ninja 400 sitting in a driveway"
+      />
+      <p>Kawasaki Ninja 400</p>
+      <p>$5,124.98</p>
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <p>
+          <label for="card-name"> Cardholder Name:</label>
+          <input
+            type="text"
+            id="card-name"
+            name="card-name"
+            required
+            aria-required="true"
+          />
+        </p>
+        <p>
+          <label for="card-number">Credit Card Number:</label>
+          <input
+            type="text"
+            id="card-number"
+            name="card-number"
+            required
+            aria-required="true"
+          />
+        </p>
+        <p>
+          <label for="exp">Expiration Date:</label>
+          <input type="text" id="exp" name="exp" required />
+        </p>
+        <p>
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" required />
+        </p>
+        <p><button type="submit">Place Order</button></p>
+      </form>
+    </section>
+  </body>
+</html>
