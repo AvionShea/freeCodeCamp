@@ -8,6 +8,7 @@ body {
   width: 370px;
   text-align: center;
   margin: 20px auto;
+  box-shadow: 10px 12px 5px black;
 }
 
 .post-img {
